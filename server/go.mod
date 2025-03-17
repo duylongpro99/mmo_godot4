@@ -1,4 +1,4 @@
-module cris.com/mmo
+module server
 
 go 1.24.1
 

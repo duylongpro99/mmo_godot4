@@ -1,7 +1,15 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#520260",
-        "titleBar.activeBackground": "#730387",
-        "titleBar.activeForeground": "#FEFBFF"
-    }
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#520260",
+    "titleBar.activeBackground": "#730387",
+    "titleBar.activeForeground": "#FEFBFF"
+  },
+  "protoc": {
+    "path": "protoc", // set to absolute path to protoc executable,
+    "compile_on_save": true, // set to true to compile proto files on save
+    "options": [
+        "-I=/Users/onedayin20902/personal/golang/radius_rumble/shared",
+        "--go_out=server",
+    ]
+  }
 }

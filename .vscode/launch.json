@@ -7,7 +7,8 @@
       "request": "launch",
       "mode": "auto",
       "program": "${workspaceFolder}/server/cmd/main.go",
-      "output": "${workspaceFolder}/server/cmd/debug.exe"
+      "output": "${workspaceFolder}/server/cmd/debug.exe",
+      "dlvFlags": ["--check-go-version=false"]
     },
     {
       "name": "Debug Test",

@@ -19,5 +19,5 @@ Set GOPATH for .zshrc
 
 Gen go code from .proto file
 ```bash
-protoc -I="shared" --go_out="server" "shared/packets.proto"
+    protoc -I="shared" --go_out="server" "shared/packets.proto"
 ```
